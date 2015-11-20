@@ -27,6 +27,60 @@
 		53CDD7DF1BFF01A5008C1040 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7D41BFF01A5008C1040 /* AFURLRequestSerialization.m */; };
 		53CDD7E01BFF01A5008C1040 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7D61BFF01A5008C1040 /* AFURLResponseSerialization.m */; };
 		53CDD7E11BFF01A5008C1040 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7D81BFF01A5008C1040 /* AFURLSessionManager.m */; };
+		53CDD83B1BFF039A008C1040 /* AutoResizeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7E41BFF039A008C1040 /* AutoResizeTextView.m */; };
+		53CDD83C1BFF039A008C1040 /* MDCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7E71BFF039A008C1040 /* MDCalendar.m */; };
+		53CDD83D1BFF039A008C1040 /* MDCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7E91BFF039A008C1040 /* MDCalendarCell.m */; };
+		53CDD83E1BFF039A008C1040 /* MDCalendarDateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7EB1BFF039A008C1040 /* MDCalendarDateHeader.m */; };
+		53CDD83F1BFF039A008C1040 /* MDCalendarHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7ED1BFF039A008C1040 /* MDCalendarHeader.m */; };
+		53CDD8401BFF039A008C1040 /* MDCalendarYearSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7EF1BFF039A008C1040 /* MDCalendarYearSelector.m */; };
+		53CDD8411BFF039A008C1040 /* MDCalendarYearSelectorViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7F11BFF039A008C1040 /* MDCalendarYearSelectorViewCell.m */; };
+		53CDD8421BFF039A008C1040 /* MDDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7F31BFF039A008C1040 /* MDDatePicker.m */; };
+		53CDD8431BFF039A008C1040 /* MDDatePickerDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7F51BFF039A008C1040 /* MDDatePickerDialog.m */; };
+		53CDD8441BFF039A008C1040 /* MDTimePickerDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7F71BFF039A008C1040 /* MDTimePickerDialog.m */; };
+		53CDD8451BFF039A008C1040 /* NSCalendarHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7F91BFF039A008C1040 /* NSCalendarHelper.m */; };
+		53CDD8461BFF039A008C1040 /* NSDate+MDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7FB1BFF039A008C1040 /* NSDate+MDExtension.m */; };
+		53CDD8471BFF039A008C1040 /* MDDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7FE1BFF039A008C1040 /* MDDeviceHelper.m */; };
+		53CDD8481BFF039A008C1040 /* MDMathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8001BFF039A008C1040 /* MDMathHelper.m */; };
+		53CDD8491BFF039A008C1040 /* NSDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8021BFF039A008C1040 /* NSDateHelper.m */; };
+		53CDD84A1BFF039A008C1040 /* UIColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8041BFF039A008C1040 /* UIColorHelper.m */; };
+		53CDD84B1BFF039A008C1040 /* UIFontHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8061BFF039A008C1040 /* UIFontHelper.m */; };
+		53CDD84C1BFF039A008C1040 /* UIViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8081BFF039A008C1040 /* UIViewHelper.m */; };
+		53CDD84D1BFF039A008C1040 /* MDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD80A1BFF039A008C1040 /* MDButton.m */; };
+		53CDD84E1BFF039A008C1040 /* MDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD80C1BFF039A008C1040 /* MDCollectionViewCell.m */; };
+		53CDD84F1BFF039A008C1040 /* MDProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD80F1BFF039A008C1040 /* MDProgress.m */; };
+		53CDD8501BFF039A008C1040 /* MDRippleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8111BFF039A008C1040 /* MDRippleLayer.m */; };
+		53CDD8511BFF039A008C1040 /* MDSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8131BFF039A008C1040 /* MDSlider.m */; };
+		53CDD8521BFF039A008C1040 /* MDSnackbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8151BFF039A008C1040 /* MDSnackbar.m */; };
+		53CDD8531BFF039A008C1040 /* MDSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8171BFF039A008C1040 /* MDSwitch.m */; };
+		53CDD8541BFF039A008C1040 /* MDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8191BFF039A008C1040 /* MDTabBar.m */; };
+		53CDD8551BFF039A008C1040 /* MDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD81B1BFF039A008C1040 /* MDTabBarViewController.m */; };
+		53CDD8561BFF039A008C1040 /* MDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD81D1BFF039A008C1040 /* MDTableViewCell.m */; };
+		53CDD8571BFF039A008C1040 /* MDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD81F1BFF039A008C1040 /* MDTextField.m */; };
+		53CDD8581BFF039A008C1040 /* MDToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8211BFF039A008C1040 /* MDToast.m */; };
+		53CDD8591BFF039A008C1040 /* MDTouchGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8231BFF039A008C1040 /* MDTouchGestureRecognizer.m */; };
+		53CDD85A1BFF039A008C1040 /* MDCircularProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8261BFF039A008C1040 /* MDCircularProgressLayer.m */; };
+		53CDD85B1BFF039A008C1040 /* MDLinearProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8281BFF039A008C1040 /* MDLinearProgressLayer.m */; };
+		53CDD85C1BFF039A008C1040 /* MDProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD82A1BFF039A008C1040 /* MDProgressLayer.m */; };
+		53CDD85D1BFF039A008C1040 /* MDBubbleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD82D1BFF039A008C1040 /* MDBubbleLabel.m */; };
+		53CDD85E1BFF039A008C1040 /* MDSliderIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD82F1BFF039A008C1040 /* MDSliderIcon.m */; };
+		53CDD85F1BFF039A008C1040 /* MDSliderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8311BFF039A008C1040 /* MDSliderThumbView.m */; };
+		53CDD8601BFF039A008C1040 /* MDSliderTickMarksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8331BFF039A008C1040 /* MDSliderTickMarksView.m */; };
+		53CDD8611BFF039A008C1040 /* MDSuggestPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8361BFF039A008C1040 /* MDSuggestPopupView.m */; };
+		53CDD8621BFF039A008C1040 /* MDSuggestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8381BFF039A008C1040 /* MDSuggestTableView.m */; };
+		53CDD8631BFF039A008C1040 /* UIView+MDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD83A1BFF039A008C1040 /* UIView+MDExtension.m */; };
+		53CDD8731BFF03F4008C1040 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD8661BFF03F4008C1040 /* LICENSE.txt */; };
+		53CDD8741BFF03F4008C1040 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD8671BFF03F4008C1040 /* Roboto-Black.ttf */; };
+		53CDD8751BFF03F4008C1040 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD8681BFF03F4008C1040 /* Roboto-BlackItalic.ttf */; };
+		53CDD8761BFF03F4008C1040 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD8691BFF03F4008C1040 /* Roboto-Bold.ttf */; };
+		53CDD8771BFF03F4008C1040 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD86A1BFF03F4008C1040 /* Roboto-BoldItalic.ttf */; };
+		53CDD8781BFF03F4008C1040 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD86B1BFF03F4008C1040 /* Roboto-Italic.ttf */; };
+		53CDD8791BFF03F4008C1040 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD86C1BFF03F4008C1040 /* Roboto-Light.ttf */; };
+		53CDD87A1BFF03F4008C1040 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD86D1BFF03F4008C1040 /* Roboto-LightItalic.ttf */; };
+		53CDD87B1BFF03F4008C1040 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD86E1BFF03F4008C1040 /* Roboto-Medium.ttf */; };
+		53CDD87C1BFF03F4008C1040 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD86F1BFF03F4008C1040 /* Roboto-MediumItalic.ttf */; };
+		53CDD87D1BFF03F4008C1040 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD8701BFF03F4008C1040 /* Roboto-Regular.ttf */; };
+		53CDD87E1BFF03F4008C1040 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD8711BFF03F4008C1040 /* Roboto-Thin.ttf */; };
+		53CDD87F1BFF03F4008C1040 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD8721BFF03F4008C1040 /* Roboto-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +121,102 @@
 		53CDD7D61BFF01A5008C1040 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		53CDD7D71BFF01A5008C1040 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		53CDD7D81BFF01A5008C1040 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		53CDD7E31BFF039A008C1040 /* AutoResizeTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoResizeTextView.h; sourceTree = "<group>"; };
+		53CDD7E41BFF039A008C1040 /* AutoResizeTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoResizeTextView.m; sourceTree = "<group>"; };
+		53CDD7E61BFF039A008C1040 /* MDCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCalendar.h; sourceTree = "<group>"; };
+		53CDD7E71BFF039A008C1040 /* MDCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCalendar.m; sourceTree = "<group>"; };
+		53CDD7E81BFF039A008C1040 /* MDCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCalendarCell.h; sourceTree = "<group>"; };
+		53CDD7E91BFF039A008C1040 /* MDCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCalendarCell.m; sourceTree = "<group>"; };
+		53CDD7EA1BFF039A008C1040 /* MDCalendarDateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCalendarDateHeader.h; sourceTree = "<group>"; };
+		53CDD7EB1BFF039A008C1040 /* MDCalendarDateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCalendarDateHeader.m; sourceTree = "<group>"; };
+		53CDD7EC1BFF039A008C1040 /* MDCalendarHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCalendarHeader.h; sourceTree = "<group>"; };
+		53CDD7ED1BFF039A008C1040 /* MDCalendarHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCalendarHeader.m; sourceTree = "<group>"; };
+		53CDD7EE1BFF039A008C1040 /* MDCalendarYearSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCalendarYearSelector.h; sourceTree = "<group>"; };
+		53CDD7EF1BFF039A008C1040 /* MDCalendarYearSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCalendarYearSelector.m; sourceTree = "<group>"; };
+		53CDD7F01BFF039A008C1040 /* MDCalendarYearSelectorViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCalendarYearSelectorViewCell.h; sourceTree = "<group>"; };
+		53CDD7F11BFF039A008C1040 /* MDCalendarYearSelectorViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCalendarYearSelectorViewCell.m; sourceTree = "<group>"; };
+		53CDD7F21BFF039A008C1040 /* MDDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDatePicker.h; sourceTree = "<group>"; };
+		53CDD7F31BFF039A008C1040 /* MDDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDatePicker.m; sourceTree = "<group>"; };
+		53CDD7F41BFF039A008C1040 /* MDDatePickerDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDatePickerDialog.h; sourceTree = "<group>"; };
+		53CDD7F51BFF039A008C1040 /* MDDatePickerDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDatePickerDialog.m; sourceTree = "<group>"; };
+		53CDD7F61BFF039A008C1040 /* MDTimePickerDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTimePickerDialog.h; sourceTree = "<group>"; };
+		53CDD7F71BFF039A008C1040 /* MDTimePickerDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTimePickerDialog.m; sourceTree = "<group>"; };
+		53CDD7F81BFF039A008C1040 /* NSCalendarHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCalendarHelper.h; sourceTree = "<group>"; };
+		53CDD7F91BFF039A008C1040 /* NSCalendarHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCalendarHelper.m; sourceTree = "<group>"; };
+		53CDD7FA1BFF039A008C1040 /* NSDate+MDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MDExtension.h"; sourceTree = "<group>"; };
+		53CDD7FB1BFF039A008C1040 /* NSDate+MDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MDExtension.m"; sourceTree = "<group>"; };
+		53CDD7FD1BFF039A008C1040 /* MDDeviceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDeviceHelper.h; sourceTree = "<group>"; };
+		53CDD7FE1BFF039A008C1040 /* MDDeviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDeviceHelper.m; sourceTree = "<group>"; };
+		53CDD7FF1BFF039A008C1040 /* MDMathHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMathHelper.h; sourceTree = "<group>"; };
+		53CDD8001BFF039A008C1040 /* MDMathHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMathHelper.m; sourceTree = "<group>"; };
+		53CDD8011BFF039A008C1040 /* NSDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateHelper.h; sourceTree = "<group>"; };
+		53CDD8021BFF039A008C1040 /* NSDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateHelper.m; sourceTree = "<group>"; };
+		53CDD8031BFF039A008C1040 /* UIColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorHelper.h; sourceTree = "<group>"; };
+		53CDD8041BFF039A008C1040 /* UIColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorHelper.m; sourceTree = "<group>"; };
+		53CDD8051BFF039A008C1040 /* UIFontHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFontHelper.h; sourceTree = "<group>"; };
+		53CDD8061BFF039A008C1040 /* UIFontHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFontHelper.m; sourceTree = "<group>"; };
+		53CDD8071BFF039A008C1040 /* UIViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewHelper.h; sourceTree = "<group>"; };
+		53CDD8081BFF039A008C1040 /* UIViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewHelper.m; sourceTree = "<group>"; };
+		53CDD8091BFF039A008C1040 /* MDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDButton.h; sourceTree = "<group>"; };
+		53CDD80A1BFF039A008C1040 /* MDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDButton.m; sourceTree = "<group>"; };
+		53CDD80B1BFF039A008C1040 /* MDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCollectionViewCell.h; sourceTree = "<group>"; };
+		53CDD80C1BFF039A008C1040 /* MDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCollectionViewCell.m; sourceTree = "<group>"; };
+		53CDD80D1BFF039A008C1040 /* MDConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDConstants.h; sourceTree = "<group>"; };
+		53CDD80E1BFF039A008C1040 /* MDProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDProgress.h; sourceTree = "<group>"; };
+		53CDD80F1BFF039A008C1040 /* MDProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDProgress.m; sourceTree = "<group>"; };
+		53CDD8101BFF039A008C1040 /* MDRippleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRippleLayer.h; sourceTree = "<group>"; };
+		53CDD8111BFF039A008C1040 /* MDRippleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRippleLayer.m; sourceTree = "<group>"; };
+		53CDD8121BFF039A008C1040 /* MDSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSlider.h; sourceTree = "<group>"; };
+		53CDD8131BFF039A008C1040 /* MDSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSlider.m; sourceTree = "<group>"; };
+		53CDD8141BFF039A008C1040 /* MDSnackbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSnackbar.h; sourceTree = "<group>"; };
+		53CDD8151BFF039A008C1040 /* MDSnackbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSnackbar.m; sourceTree = "<group>"; };
+		53CDD8161BFF039A008C1040 /* MDSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSwitch.h; sourceTree = "<group>"; };
+		53CDD8171BFF039A008C1040 /* MDSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSwitch.m; sourceTree = "<group>"; };
+		53CDD8181BFF039A008C1040 /* MDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTabBar.h; sourceTree = "<group>"; };
+		53CDD8191BFF039A008C1040 /* MDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTabBar.m; sourceTree = "<group>"; };
+		53CDD81A1BFF039A008C1040 /* MDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTabBarViewController.h; sourceTree = "<group>"; };
+		53CDD81B1BFF039A008C1040 /* MDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTabBarViewController.m; sourceTree = "<group>"; };
+		53CDD81C1BFF039A008C1040 /* MDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTableViewCell.h; sourceTree = "<group>"; };
+		53CDD81D1BFF039A008C1040 /* MDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTableViewCell.m; sourceTree = "<group>"; };
+		53CDD81E1BFF039A008C1040 /* MDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTextField.h; sourceTree = "<group>"; };
+		53CDD81F1BFF039A008C1040 /* MDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTextField.m; sourceTree = "<group>"; };
+		53CDD8201BFF039A008C1040 /* MDToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDToast.h; sourceTree = "<group>"; };
+		53CDD8211BFF039A008C1040 /* MDToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDToast.m; sourceTree = "<group>"; };
+		53CDD8221BFF039A008C1040 /* MDTouchGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTouchGestureRecognizer.h; sourceTree = "<group>"; };
+		53CDD8231BFF039A008C1040 /* MDTouchGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTouchGestureRecognizer.m; sourceTree = "<group>"; };
+		53CDD8251BFF039A008C1040 /* MDCircularProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCircularProgressLayer.h; sourceTree = "<group>"; };
+		53CDD8261BFF039A008C1040 /* MDCircularProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCircularProgressLayer.m; sourceTree = "<group>"; };
+		53CDD8271BFF039A008C1040 /* MDLinearProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDLinearProgressLayer.h; sourceTree = "<group>"; };
+		53CDD8281BFF039A008C1040 /* MDLinearProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDLinearProgressLayer.m; sourceTree = "<group>"; };
+		53CDD8291BFF039A008C1040 /* MDProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDProgressLayer.h; sourceTree = "<group>"; };
+		53CDD82A1BFF039A008C1040 /* MDProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDProgressLayer.m; sourceTree = "<group>"; };
+		53CDD82C1BFF039A008C1040 /* MDBubbleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDBubbleLabel.h; sourceTree = "<group>"; };
+		53CDD82D1BFF039A008C1040 /* MDBubbleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDBubbleLabel.m; sourceTree = "<group>"; };
+		53CDD82E1BFF039A008C1040 /* MDSliderIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSliderIcon.h; sourceTree = "<group>"; };
+		53CDD82F1BFF039A008C1040 /* MDSliderIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSliderIcon.m; sourceTree = "<group>"; };
+		53CDD8301BFF039A008C1040 /* MDSliderThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSliderThumbView.h; sourceTree = "<group>"; };
+		53CDD8311BFF039A008C1040 /* MDSliderThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSliderThumbView.m; sourceTree = "<group>"; };
+		53CDD8321BFF039A008C1040 /* MDSliderTickMarksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSliderTickMarksView.h; sourceTree = "<group>"; };
+		53CDD8331BFF039A008C1040 /* MDSliderTickMarksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSliderTickMarksView.m; sourceTree = "<group>"; };
+		53CDD8351BFF039A008C1040 /* MDSuggestPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSuggestPopupView.h; sourceTree = "<group>"; };
+		53CDD8361BFF039A008C1040 /* MDSuggestPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSuggestPopupView.m; sourceTree = "<group>"; };
+		53CDD8371BFF039A008C1040 /* MDSuggestTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSuggestTableView.h; sourceTree = "<group>"; };
+		53CDD8381BFF039A008C1040 /* MDSuggestTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSuggestTableView.m; sourceTree = "<group>"; };
+		53CDD8391BFF039A008C1040 /* UIView+MDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDExtension.h"; sourceTree = "<group>"; };
+		53CDD83A1BFF039A008C1040 /* UIView+MDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDExtension.m"; sourceTree = "<group>"; };
+		53CDD8661BFF03F4008C1040 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		53CDD8671BFF03F4008C1040 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		53CDD8681BFF03F4008C1040 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		53CDD8691BFF03F4008C1040 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		53CDD86A1BFF03F4008C1040 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		53CDD86B1BFF03F4008C1040 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		53CDD86C1BFF03F4008C1040 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		53CDD86D1BFF03F4008C1040 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		53CDD86E1BFF03F4008C1040 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		53CDD86F1BFF03F4008C1040 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		53CDD8701BFF03F4008C1040 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		53CDD8711BFF03F4008C1040 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		53CDD8721BFF03F4008C1040 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +285,7 @@
 		53CDD7B51BFF00DE008C1040 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				53CDD7E21BFF039A008C1040 /* iOSUILib */,
 				53CDD7C51BFF01A5008C1040 /* AFNetworking */,
 				53CDD7C41BFF0146008C1040 /* Hpple */,
 			);
@@ -188,6 +339,157 @@
 				53CDD7D81BFF01A5008C1040 /* AFURLSessionManager.m */,
 			);
 			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		53CDD7E21BFF039A008C1040 /* iOSUILib */ = {
+			isa = PBXGroup;
+			children = (
+				53CDD8651BFF03F4008C1040 /* Roboto */,
+				53CDD7E31BFF039A008C1040 /* AutoResizeTextView.h */,
+				53CDD7E41BFF039A008C1040 /* AutoResizeTextView.m */,
+				53CDD7E51BFF039A008C1040 /* Calendar */,
+				53CDD7FC1BFF039A008C1040 /* Helpers */,
+				53CDD8091BFF039A008C1040 /* MDButton.h */,
+				53CDD80A1BFF039A008C1040 /* MDButton.m */,
+				53CDD80B1BFF039A008C1040 /* MDCollectionViewCell.h */,
+				53CDD80C1BFF039A008C1040 /* MDCollectionViewCell.m */,
+				53CDD80D1BFF039A008C1040 /* MDConstants.h */,
+				53CDD80E1BFF039A008C1040 /* MDProgress.h */,
+				53CDD80F1BFF039A008C1040 /* MDProgress.m */,
+				53CDD8101BFF039A008C1040 /* MDRippleLayer.h */,
+				53CDD8111BFF039A008C1040 /* MDRippleLayer.m */,
+				53CDD8121BFF039A008C1040 /* MDSlider.h */,
+				53CDD8131BFF039A008C1040 /* MDSlider.m */,
+				53CDD8141BFF039A008C1040 /* MDSnackbar.h */,
+				53CDD8151BFF039A008C1040 /* MDSnackbar.m */,
+				53CDD8161BFF039A008C1040 /* MDSwitch.h */,
+				53CDD8171BFF039A008C1040 /* MDSwitch.m */,
+				53CDD8181BFF039A008C1040 /* MDTabBar.h */,
+				53CDD8191BFF039A008C1040 /* MDTabBar.m */,
+				53CDD81A1BFF039A008C1040 /* MDTabBarViewController.h */,
+				53CDD81B1BFF039A008C1040 /* MDTabBarViewController.m */,
+				53CDD81C1BFF039A008C1040 /* MDTableViewCell.h */,
+				53CDD81D1BFF039A008C1040 /* MDTableViewCell.m */,
+				53CDD81E1BFF039A008C1040 /* MDTextField.h */,
+				53CDD81F1BFF039A008C1040 /* MDTextField.m */,
+				53CDD8201BFF039A008C1040 /* MDToast.h */,
+				53CDD8211BFF039A008C1040 /* MDToast.m */,
+				53CDD8221BFF039A008C1040 /* MDTouchGestureRecognizer.h */,
+				53CDD8231BFF039A008C1040 /* MDTouchGestureRecognizer.m */,
+				53CDD8241BFF039A008C1040 /* Progress */,
+				53CDD82B1BFF039A008C1040 /* Slider */,
+				53CDD8341BFF039A008C1040 /* SuggestPopup */,
+				53CDD8391BFF039A008C1040 /* UIView+MDExtension.h */,
+				53CDD83A1BFF039A008C1040 /* UIView+MDExtension.m */,
+			);
+			path = iOSUILib;
+			sourceTree = "<group>";
+		};
+		53CDD7E51BFF039A008C1040 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				53CDD7E61BFF039A008C1040 /* MDCalendar.h */,
+				53CDD7E71BFF039A008C1040 /* MDCalendar.m */,
+				53CDD7E81BFF039A008C1040 /* MDCalendarCell.h */,
+				53CDD7E91BFF039A008C1040 /* MDCalendarCell.m */,
+				53CDD7EA1BFF039A008C1040 /* MDCalendarDateHeader.h */,
+				53CDD7EB1BFF039A008C1040 /* MDCalendarDateHeader.m */,
+				53CDD7EC1BFF039A008C1040 /* MDCalendarHeader.h */,
+				53CDD7ED1BFF039A008C1040 /* MDCalendarHeader.m */,
+				53CDD7EE1BFF039A008C1040 /* MDCalendarYearSelector.h */,
+				53CDD7EF1BFF039A008C1040 /* MDCalendarYearSelector.m */,
+				53CDD7F01BFF039A008C1040 /* MDCalendarYearSelectorViewCell.h */,
+				53CDD7F11BFF039A008C1040 /* MDCalendarYearSelectorViewCell.m */,
+				53CDD7F21BFF039A008C1040 /* MDDatePicker.h */,
+				53CDD7F31BFF039A008C1040 /* MDDatePicker.m */,
+				53CDD7F41BFF039A008C1040 /* MDDatePickerDialog.h */,
+				53CDD7F51BFF039A008C1040 /* MDDatePickerDialog.m */,
+				53CDD7F61BFF039A008C1040 /* MDTimePickerDialog.h */,
+				53CDD7F71BFF039A008C1040 /* MDTimePickerDialog.m */,
+				53CDD7F81BFF039A008C1040 /* NSCalendarHelper.h */,
+				53CDD7F91BFF039A008C1040 /* NSCalendarHelper.m */,
+				53CDD7FA1BFF039A008C1040 /* NSDate+MDExtension.h */,
+				53CDD7FB1BFF039A008C1040 /* NSDate+MDExtension.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		53CDD7FC1BFF039A008C1040 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				53CDD7FD1BFF039A008C1040 /* MDDeviceHelper.h */,
+				53CDD7FE1BFF039A008C1040 /* MDDeviceHelper.m */,
+				53CDD7FF1BFF039A008C1040 /* MDMathHelper.h */,
+				53CDD8001BFF039A008C1040 /* MDMathHelper.m */,
+				53CDD8011BFF039A008C1040 /* NSDateHelper.h */,
+				53CDD8021BFF039A008C1040 /* NSDateHelper.m */,
+				53CDD8031BFF039A008C1040 /* UIColorHelper.h */,
+				53CDD8041BFF039A008C1040 /* UIColorHelper.m */,
+				53CDD8051BFF039A008C1040 /* UIFontHelper.h */,
+				53CDD8061BFF039A008C1040 /* UIFontHelper.m */,
+				53CDD8071BFF039A008C1040 /* UIViewHelper.h */,
+				53CDD8081BFF039A008C1040 /* UIViewHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		53CDD8241BFF039A008C1040 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				53CDD8251BFF039A008C1040 /* MDCircularProgressLayer.h */,
+				53CDD8261BFF039A008C1040 /* MDCircularProgressLayer.m */,
+				53CDD8271BFF039A008C1040 /* MDLinearProgressLayer.h */,
+				53CDD8281BFF039A008C1040 /* MDLinearProgressLayer.m */,
+				53CDD8291BFF039A008C1040 /* MDProgressLayer.h */,
+				53CDD82A1BFF039A008C1040 /* MDProgressLayer.m */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		53CDD82B1BFF039A008C1040 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				53CDD82C1BFF039A008C1040 /* MDBubbleLabel.h */,
+				53CDD82D1BFF039A008C1040 /* MDBubbleLabel.m */,
+				53CDD82E1BFF039A008C1040 /* MDSliderIcon.h */,
+				53CDD82F1BFF039A008C1040 /* MDSliderIcon.m */,
+				53CDD8301BFF039A008C1040 /* MDSliderThumbView.h */,
+				53CDD8311BFF039A008C1040 /* MDSliderThumbView.m */,
+				53CDD8321BFF039A008C1040 /* MDSliderTickMarksView.h */,
+				53CDD8331BFF039A008C1040 /* MDSliderTickMarksView.m */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		53CDD8341BFF039A008C1040 /* SuggestPopup */ = {
+			isa = PBXGroup;
+			children = (
+				53CDD8351BFF039A008C1040 /* MDSuggestPopupView.h */,
+				53CDD8361BFF039A008C1040 /* MDSuggestPopupView.m */,
+				53CDD8371BFF039A008C1040 /* MDSuggestTableView.h */,
+				53CDD8381BFF039A008C1040 /* MDSuggestTableView.m */,
+			);
+			path = SuggestPopup;
+			sourceTree = "<group>";
+		};
+		53CDD8651BFF03F4008C1040 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				53CDD8661BFF03F4008C1040 /* LICENSE.txt */,
+				53CDD8671BFF03F4008C1040 /* Roboto-Black.ttf */,
+				53CDD8681BFF03F4008C1040 /* Roboto-BlackItalic.ttf */,
+				53CDD8691BFF03F4008C1040 /* Roboto-Bold.ttf */,
+				53CDD86A1BFF03F4008C1040 /* Roboto-BoldItalic.ttf */,
+				53CDD86B1BFF03F4008C1040 /* Roboto-Italic.ttf */,
+				53CDD86C1BFF03F4008C1040 /* Roboto-Light.ttf */,
+				53CDD86D1BFF03F4008C1040 /* Roboto-LightItalic.ttf */,
+				53CDD86E1BFF03F4008C1040 /* Roboto-Medium.ttf */,
+				53CDD86F1BFF03F4008C1040 /* Roboto-MediumItalic.ttf */,
+				53CDD8701BFF03F4008C1040 /* Roboto-Regular.ttf */,
+				53CDD8711BFF03F4008C1040 /* Roboto-Thin.ttf */,
+				53CDD8721BFF03F4008C1040 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Roboto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,7 +549,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53CDD8761BFF03F4008C1040 /* Roboto-Bold.ttf in Resources */,
+				53CDD87A1BFF03F4008C1040 /* Roboto-LightItalic.ttf in Resources */,
+				53CDD87C1BFF03F4008C1040 /* Roboto-MediumItalic.ttf in Resources */,
+				53CDD8781BFF03F4008C1040 /* Roboto-Italic.ttf in Resources */,
+				53CDD8791BFF03F4008C1040 /* Roboto-Light.ttf in Resources */,
+				53CDD8731BFF03F4008C1040 /* LICENSE.txt in Resources */,
+				53CDD8771BFF03F4008C1040 /* Roboto-BoldItalic.ttf in Resources */,
+				53CDD8751BFF03F4008C1040 /* Roboto-BlackItalic.ttf in Resources */,
+				53CDD87E1BFF03F4008C1040 /* Roboto-Thin.ttf in Resources */,
+				53CDD87D1BFF03F4008C1040 /* Roboto-Regular.ttf in Resources */,
 				53CDD7AB1BFEFF35008C1040 /* LaunchScreen.storyboard in Resources */,
+				53CDD87B1BFF03F4008C1040 /* Roboto-Medium.ttf in Resources */,
+				53CDD87F1BFF03F4008C1040 /* Roboto-ThinItalic.ttf in Resources */,
+				53CDD8741BFF03F4008C1040 /* Roboto-Black.ttf in Resources */,
 				53CDD7A81BFEFF35008C1040 /* Assets.xcassets in Resources */,
 				53CDD7A61BFEFF35008C1040 /* Main.storyboard in Resources */,
 			);
@@ -260,20 +575,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53CDD8591BFF039A008C1040 /* MDTouchGestureRecognizer.m in Sources */,
+				53CDD8501BFF039A008C1040 /* MDRippleLayer.m in Sources */,
 				53CDD7E11BFF01A5008C1040 /* AFURLSessionManager.m in Sources */,
+				53CDD8611BFF039A008C1040 /* MDSuggestPopupView.m in Sources */,
+				53CDD8421BFF039A008C1040 /* MDDatePicker.m in Sources */,
 				53CDD7A31BFEFF35008C1040 /* ViewController.m in Sources */,
+				53CDD8441BFF039A008C1040 /* MDTimePickerDialog.m in Sources */,
+				53CDD8601BFF039A008C1040 /* MDSliderTickMarksView.m in Sources */,
+				53CDD8491BFF039A008C1040 /* NSDateHelper.m in Sources */,
 				53CDD7A01BFEFF35008C1040 /* AppDelegate.m in Sources */,
+				53CDD8431BFF039A008C1040 /* MDDatePickerDialog.m in Sources */,
 				53CDD7DC1BFF01A5008C1040 /* AFNetworkReachabilityManager.m in Sources */,
+				53CDD83C1BFF039A008C1040 /* MDCalendar.m in Sources */,
+				53CDD84C1BFF039A008C1040 /* UIViewHelper.m in Sources */,
+				53CDD8451BFF039A008C1040 /* NSCalendarHelper.m in Sources */,
+				53CDD8481BFF039A008C1040 /* MDMathHelper.m in Sources */,
+				53CDD85C1BFF039A008C1040 /* MDProgressLayer.m in Sources */,
+				53CDD8561BFF039A008C1040 /* MDTableViewCell.m in Sources */,
+				53CDD8621BFF039A008C1040 /* MDSuggestTableView.m in Sources */,
 				53CDD79D1BFEFF35008C1040 /* main.m in Sources */,
+				53CDD85B1BFF039A008C1040 /* MDLinearProgressLayer.m in Sources */,
+				53CDD84F1BFF039A008C1040 /* MDProgress.m in Sources */,
+				53CDD8511BFF039A008C1040 /* MDSlider.m in Sources */,
+				53CDD8531BFF039A008C1040 /* MDSwitch.m in Sources */,
 				53CDD7DE1BFF01A5008C1040 /* AFURLConnectionOperation.m in Sources */,
 				53CDD7DB1BFF01A5008C1040 /* AFHTTPSessionManager.m in Sources */,
+				53CDD85D1BFF039A008C1040 /* MDBubbleLabel.m in Sources */,
 				53CDD7DF1BFF01A5008C1040 /* AFURLRequestSerialization.m in Sources */,
+				53CDD84D1BFF039A008C1040 /* MDButton.m in Sources */,
+				53CDD83F1BFF039A008C1040 /* MDCalendarHeader.m in Sources */,
+				53CDD83E1BFF039A008C1040 /* MDCalendarDateHeader.m in Sources */,
+				53CDD8461BFF039A008C1040 /* NSDate+MDExtension.m in Sources */,
+				53CDD85E1BFF039A008C1040 /* MDSliderIcon.m in Sources */,
+				53CDD8631BFF039A008C1040 /* UIView+MDExtension.m in Sources */,
+				53CDD8401BFF039A008C1040 /* MDCalendarYearSelector.m in Sources */,
+				53CDD8551BFF039A008C1040 /* MDTabBarViewController.m in Sources */,
+				53CDD84E1BFF039A008C1040 /* MDCollectionViewCell.m in Sources */,
 				53CDD7BC1BFF00DE008C1040 /* TFHpple.m in Sources */,
+				53CDD85A1BFF039A008C1040 /* MDCircularProgressLayer.m in Sources */,
 				53CDD7BE1BFF00DE008C1040 /* XPathQuery.m in Sources */,
+				53CDD84A1BFF039A008C1040 /* UIColorHelper.m in Sources */,
+				53CDD8411BFF039A008C1040 /* MDCalendarYearSelectorViewCell.m in Sources */,
+				53CDD83B1BFF039A008C1040 /* AutoResizeTextView.m in Sources */,
+				53CDD8521BFF039A008C1040 /* MDSnackbar.m in Sources */,
+				53CDD8571BFF039A008C1040 /* MDTextField.m in Sources */,
 				53CDD7BD1BFF00DE008C1040 /* TFHppleElement.m in Sources */,
 				53CDD7DA1BFF01A5008C1040 /* AFHTTPRequestOperationManager.m in Sources */,
+				53CDD83D1BFF039A008C1040 /* MDCalendarCell.m in Sources */,
+				53CDD8471BFF039A008C1040 /* MDDeviceHelper.m in Sources */,
 				53CDD7DD1BFF01A5008C1040 /* AFSecurityPolicy.m in Sources */,
+				53CDD8541BFF039A008C1040 /* MDTabBar.m in Sources */,
+				53CDD8581BFF039A008C1040 /* MDToast.m in Sources */,
 				53CDD7E01BFF01A5008C1040 /* AFURLResponseSerialization.m in Sources */,
+				53CDD85F1BFF039A008C1040 /* MDSliderThumbView.m in Sources */,
+				53CDD84B1BFF039A008C1040 /* UIFontHelper.m in Sources */,
 				53CDD7D91BFF01A5008C1040 /* AFHTTPRequestOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
