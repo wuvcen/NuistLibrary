@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "SearchBookList.h"
+#import "ListBook.h"
 #import "Server.h"
 @interface ViewController ()
 
@@ -16,6 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [NXServer getSearchBookListByKeyWord:@"爱情" page:@1 completion:^(SearchBookList *list ,NSError *error){
+        if (!error) {
+            for (ListBook *book in list.bookList) {
+                NSLog(@"book %@",book.title);
+            }
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -24,5 +24,5 @@
  *  @param keyword
  *  @param block   返回书籍信息
  */
-- (void)getSearchBookListByKeyWord:(NSString *)keyword completion:(void (^)(SearchBookList *))block;
+- (void)getSearchBookListByKeyWord:(NSString *)keyword page:(NSNumber *)page completion:(void (^)(SearchBookList *, NSError *))block;
 @end

@@ -23,8 +23,27 @@
     return server;
 }
 
-- (void)getSearchBookListByKeyWord:(NSString *)keyword completion:(void (^)(SearchBookList *))block {
-#pragma mark TODO getSearchBookList
+- (void)getSearchBookListByKeyWord:(NSString *)keyword page:(NSNumber *)page completion:(void (^)(SearchBookList *, NSError *))block {
+    NSString *url = [libSearch stringByReplacingOccurrencesOfString:@"{keyword}" withString:keyword];
+    url = [url stringByReplacingOccurrencesOfString:@"{page}" withString:page.stringValue];
+    NSLog(@"url is %@",url);
+    [NetWork dataFromURL:url completionBlock:^(NSData *data,NSError *error){
+        if (!error) {
+            [SearchBookList BookListWithData:data completionBlock:^(SearchBookList *bookList){
+                if (block) {
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        block(bookList, error);
+                    });
+                }
+            }];
+        }else {
+            if (block) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    block(nil, error);
+                });
+            }
+        }
+    }];
 }
 
 @end
