@@ -18,9 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [NXServer getSearchBookListByKeyWord:@"编程" completion:^(SearchBookList *bookList, NSError *error){
-        for (ListBook *book in bookList.bookList) {
-            NSLog(@"%@,%@",book.title,book.availble);
+    [NXServer getSearchBookListByKeyWord:@"爱情" page:@1 completion:^(SearchBookList *list ,NSError *error){
+        if (!error) {
+            for (ListBook *book in list.bookList) {
+                NSLog(@"book %@",book.title);
+            }
         }
     }];
 }

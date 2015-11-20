@@ -23,9 +23,9 @@
     return server;
 }
 
-- (void)getSearchBookListByKeyWord:(NSString *)keyword completion:(void (^)(SearchBookList *, NSError *))block {
+- (void)getSearchBookListByKeyWord:(NSString *)keyword page:(NSNumber *)page completion:(void (^)(SearchBookList *, NSError *))block {
     NSString *url = [libSearch stringByReplacingOccurrencesOfString:@"{keyword}" withString:keyword];
-    url = [url stringByReplacingOccurrencesOfString:@"{page}" withString:@"1"];
+    url = [url stringByReplacingOccurrencesOfString:@"{page}" withString:page.stringValue];
     NSLog(@"url is %@",url);
     [NetWork dataFromURL:url completionBlock:^(NSData *data,NSError *error){
         if (!error) {
