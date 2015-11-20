@@ -94,6 +94,7 @@
 		537D92F61BFF0F1D00E2A3B9 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
 		537D92F81BFF11ED00E2A3B9 /* SearchBookList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBookList.h; sourceTree = "<group>"; };
 		537D92F91BFF11ED00E2A3B9 /* SearchBookList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBookList.m; sourceTree = "<group>"; };
+		537D92FB1BFF17A800E2A3B9 /* APIURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIURL.h; sourceTree = "<group>"; };
 		53CDD7981BFEFF35008C1040 /* NuistLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuistLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CDD79C1BFEFF35008C1040 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53CDD79E1BFEFF35008C1040 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -524,6 +525,7 @@
 				53CDD8811BFF069C008C1040 /* NetWork.m */,
 				537D92F51BFF0F1D00E2A3B9 /* Server.h */,
 				537D92F61BFF0F1D00E2A3B9 /* Server.m */,
+				537D92FB1BFF17A800E2A3B9 /* APIURL.h */,
 			);
 			name = Service;
 			sourceTree = "<group>";
