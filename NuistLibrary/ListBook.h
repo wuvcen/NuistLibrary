@@ -12,9 +12,10 @@
 
 @interface ListBook : NSObject
 @property (strong, nonatomic) NSString *title;
-@property (strong, nonatomic) NSString *serialNumber;
-@property (strong, nonatomic) NSString *press;          /** 出版社 */
-@property (strong, nonatomic) NSString *language;       /** 中文还是外文图书 */
-@property (strong, nonatomic) NSString *storage;        /** 馆藏 */
-@property (strong, nonatomic) NSString *availble;       /** 可借 */
+/** 出版社 */
+//@property (strong, nonatomic) NSString *press;
+/** 可借 */
+@property (strong, nonatomic) NSString *availble;
+/** 地址 */
+@property (strong, nonatomic) NSString *url;
 @end

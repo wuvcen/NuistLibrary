@@ -9,10 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface SearchBookList : NSObject
-@property (assign, nonatomic) NSUInteger ipp;       //item per page
-@property (assign, nonatomic) NSUInteger total;     //total items
 @property (strong, nonatomic) NSArray *bookList;    //list of 'ListBook'
 @property (assign, nonatomic) NSUInteger currentPage;
+@property (assign, nonatomic) NSUInteger totalPage;     //total items
 
 + (void)BookListWithData:(NSData *)data completionBlock:(void(^)(SearchBookList *))block;
 - (BOOL)hasNextPage;

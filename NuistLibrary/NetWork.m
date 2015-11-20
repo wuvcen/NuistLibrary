@@ -13,7 +13,8 @@
 + (void)dataFromURL:(NSString *)url completionBlock:(void (^)(NSData *,NSError *))block {
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSError *error;
-        NSURL *targetUrl = [NSURL URLWithString:url];
+        NSURL *targetUrl = [NSURL URLWithString:[url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+        NSLog(@"NSurl%@",targetUrl);
         NSData *data = [NSData dataWithContentsOfURL:targetUrl options:NSDataReadingUncached error:&error];
         if (block) {
             dispatch_async(dispatch_get_main_queue(), ^{
