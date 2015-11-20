@@ -14,7 +14,6 @@
 
 + (void)BookListWithData:(NSData *)data completionBlock:(void (^)(SearchBookList *))block {
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-#pragma mark TODO parse in background thread
         SearchBookList *returnBookList = [SearchBookList new];
         NSMutableArray *bookList = [NSMutableArray new];
         TFHpple *doc = [[TFHpple alloc] initWithHTMLData:data];
@@ -55,5 +54,7 @@
         
     });
 }
+
+#pragma mark TODO hasNextPage
 
 @end
