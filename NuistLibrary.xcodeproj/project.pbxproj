@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531615B91C007823004C657B /* BookDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 531615B81C007823004C657B /* BookDetail.m */; settings = {ASSET_TAGS = (); }; };
 		537D92F31BFF091D00E2A3B9 /* ListBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 537D92F21BFF091D00E2A3B9 /* ListBook.m */; };
 		537D92F71BFF0F1D00E2A3B9 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 537D92F61BFF0F1D00E2A3B9 /* Server.m */; };
 		537D92FA1BFF11ED00E2A3B9 /* SearchBookList.m in Sources */ = {isa = PBXBuildFile; fileRef = 537D92F91BFF11ED00E2A3B9 /* SearchBookList.m */; };
@@ -90,6 +91,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		531615B71C007823004C657B /* BookDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetail.h; sourceTree = "<group>"; };
+		531615B81C007823004C657B /* BookDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetail.m; sourceTree = "<group>"; };
 		537D92F11BFF091D00E2A3B9 /* ListBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListBook.h; sourceTree = "<group>"; };
 		537D92F21BFF091D00E2A3B9 /* ListBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListBook.m; sourceTree = "<group>"; };
 		537D92F51BFF0F1D00E2A3B9 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
@@ -255,6 +258,8 @@
 		537D92F41BFF092700E2A3B9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				531615B71C007823004C657B /* BookDetail.h */,
+				531615B81C007823004C657B /* BookDetail.m */,
 				537D92F11BFF091D00E2A3B9 /* ListBook.h */,
 				537D92F21BFF091D00E2A3B9 /* ListBook.m */,
 				537D92F81BFF11ED00E2A3B9 /* SearchBookList.h */,
@@ -677,6 +682,7 @@
 				53CDD84A1BFF039A008C1040 /* UIColorHelper.m in Sources */,
 				53CDD8411BFF039A008C1040 /* MDCalendarYearSelectorViewCell.m in Sources */,
 				53CDD83B1BFF039A008C1040 /* AutoResizeTextView.m in Sources */,
+				531615B91C007823004C657B /* BookDetail.m in Sources */,
 				53CDD8521BFF039A008C1040 /* MDSnackbar.m in Sources */,
 				53CDD8571BFF039A008C1040 /* MDTextField.m in Sources */,
 				53CDD7BD1BFF00DE008C1040 /* TFHppleElement.m in Sources */,
