@@ -10,6 +10,8 @@
 #define NXServer [Server sharedServer]
 
 @class SearchBookList;
+@class ListBook;
+@class BookDetail;
 
 @interface Server : NSObject
 
@@ -25,4 +27,12 @@
  *  @param block   返回书籍信息
  */
 - (void)getSearchBookListByKeyWord:(NSString *)keyword page:(NSNumber *)page completion:(void (^)(SearchBookList *, NSError *))block;
+
+/**
+ *  通过 ListBook 获得 BookDetail
+ *
+ *  @param listBook ListBook 实例
+ *  @param block    返回 BookDetail
+ */
+- (void)getLibBookDetailByListBook:(ListBook *)listBook completion:(void (^)(BookDetail *,NSError *))block;
 @end
