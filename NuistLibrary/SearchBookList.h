@@ -9,10 +9,29 @@
 #import <Foundation/Foundation.h>
 
 @interface SearchBookList : NSObject
-@property (strong, nonatomic) NSArray *bookList;    //list of 'ListBook'
+/**
+ *  ListBook 的实例列表
+ */
+@property (strong, nonatomic) NSArray *bookList;
+/**
+ *  当前页
+ */
 @property (assign, nonatomic) NSUInteger currentPage;
-@property (assign, nonatomic) NSUInteger totalPage;     //total items
-
+/**
+ *  一共有多少页
+ */
+@property (assign, nonatomic) NSUInteger totalPage;
+/**
+ *  异步获取 图书一页图书列表
+ *
+ *  @param data   html data
+ *  @param block  返回实例
+ */
 + (void)BookListWithData:(NSData *)data completionBlock:(void(^)(SearchBookList *))block;
+/**
+ *  判断是否还有下一页
+ *
+ *  @return  BOOL 值
+ */
 - (BOOL)hasNextPage;
 @end

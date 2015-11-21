@@ -11,11 +11,15 @@
 #import <Foundation/Foundation.h>
 
 @interface ListBook : NSObject
+/**
+ *  标题
+ */
 @property (strong, nonatomic) NSString *title;
-/** 出版社 */
-//@property (strong, nonatomic) NSString *press;
 /** 可借 */
 @property (strong, nonatomic) NSString *availble;
 /** 地址 */
 @property (strong, nonatomic) NSString *url;
+/** 出版社 */
+//@property (strong, nonatomic) NSString *press;
+
 @end
