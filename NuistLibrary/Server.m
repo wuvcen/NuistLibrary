@@ -28,7 +28,6 @@
 - (void)getSearchBookListByKeyWord:(NSString *)keyword page:(NSNumber *)page completion:(void (^)(SearchBookList *, NSError *))block {
     NSString *url = [libSearch stringByReplacingOccurrencesOfString:@"{keyword}" withString:keyword];
     url = [url stringByReplacingOccurrencesOfString:@"{page}" withString:page.stringValue];
-    NSLog(@"url is %@",url);
     [NetWork dataFromURL:url completionBlock:^(NSData *data,NSError *error){
         if (!error) {
             [SearchBookList BookListWithData:data completionBlock:^(SearchBookList *bookList){
