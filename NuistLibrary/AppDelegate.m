@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MobClick.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+//    [MobClick startWithAppkey:@"5650363867e58e3d5a00a203" reportPolicy:BATCH channelId:@"pre.im"];
+//    [MobClick setEncryptEnabled:YES];
+//    [MobClick setBackgroundTaskEnabled:NO];
+    Class cls = NSClassFromString(@"UMANUtil");
+    SEL deviceIDSelector = @selector(openUDIDString);
+    NSString *deviceID = nil;
+    if(cls && [cls respondsToSelector:deviceIDSelector]){
+        deviceID = [cls performSelector:deviceIDSelector];
+    }
+    NSData* jsonData = [NSJSONSerialization dataWithJSONObject:@{@"oid" : deviceID}
+                                                       options:NSJSONWritingPrettyPrinted
+                                                         error:nil];
+    
+    NSLog(@"%@", [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding]);
+    
     return YES;
 }
 

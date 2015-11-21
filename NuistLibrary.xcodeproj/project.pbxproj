@@ -10,9 +10,11 @@
 		537D92F31BFF091D00E2A3B9 /* ListBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 537D92F21BFF091D00E2A3B9 /* ListBook.m */; };
 		537D92F71BFF0F1D00E2A3B9 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 537D92F61BFF0F1D00E2A3B9 /* Server.m */; };
 		537D92FA1BFF11ED00E2A3B9 /* SearchBookList.m in Sources */ = {isa = PBXBuildFile; fileRef = 537D92F91BFF11ED00E2A3B9 /* SearchBookList.m */; };
+		538C33521C006E4600806C8B /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 538C33501C006E4600806C8B /* libMobClickLibrary.a */; settings = {ASSET_TAGS = (); }; };
+		538C33551C006E8E00806C8B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 538C33541C006E8E00806C8B /* libz.tbd */; };
+		538C33581C006F4500806C8B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C33571C006F4500806C8B /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
 		53CDD79D1BFEFF35008C1040 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD79C1BFEFF35008C1040 /* main.m */; };
 		53CDD7A01BFEFF35008C1040 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD79F1BFEFF35008C1040 /* AppDelegate.m */; };
-		53CDD7A31BFEFF35008C1040 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD7A21BFEFF35008C1040 /* ViewController.m */; };
 		53CDD7A61BFEFF35008C1040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD7A41BFEFF35008C1040 /* Main.storyboard */; };
 		53CDD7A81BFEFF35008C1040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD7A71BFEFF35008C1040 /* Assets.xcassets */; };
 		53CDD7AB1BFEFF35008C1040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD7A91BFEFF35008C1040 /* LaunchScreen.storyboard */; };
@@ -95,12 +97,15 @@
 		537D92F81BFF11ED00E2A3B9 /* SearchBookList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBookList.h; sourceTree = "<group>"; };
 		537D92F91BFF11ED00E2A3B9 /* SearchBookList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBookList.m; sourceTree = "<group>"; };
 		537D92FB1BFF17A800E2A3B9 /* APIURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIURL.h; sourceTree = "<group>"; };
+		538C33501C006E4600806C8B /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
+		538C33511C006E4600806C8B /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		538C33541C006E8E00806C8B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		538C33561C006F4500806C8B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		538C33571C006F4500806C8B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		53CDD7981BFEFF35008C1040 /* NuistLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuistLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CDD79C1BFEFF35008C1040 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53CDD79E1BFEFF35008C1040 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		53CDD79F1BFEFF35008C1040 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		53CDD7A11BFEFF35008C1040 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		53CDD7A21BFEFF35008C1040 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		53CDD7A51BFEFF35008C1040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53CDD7A71BFEFF35008C1040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53CDD7AA1BFEFF35008C1040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -237,6 +242,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				538C33551C006E8E00806C8B /* libz.tbd in Frameworks */,
+				538C33521C006E4600806C8B /* libMobClickLibrary.a in Frameworks */,
 				53CDD7C21BFF0108008C1040 /* libxml2.tbd in Frameworks */,
 				53CDD7C01BFF00F2008C1040 /* libxml2.2.tbd in Frameworks */,
 			);
@@ -254,6 +261,15 @@
 				537D92F91BFF11ED00E2A3B9 /* SearchBookList.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		538C33531C006E4C00806C8B /* MobClick */ = {
+			isa = PBXGroup;
+			children = (
+				538C33501C006E4600806C8B /* libMobClickLibrary.a */,
+				538C33511C006E4600806C8B /* MobClick.h */,
+			);
+			name = MobClick;
 			sourceTree = "<group>";
 		};
 		53CDD78F1BFEFF35008C1040 = {
@@ -302,8 +318,8 @@
 		53CDD7B21BFEFF64008C1040 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				53CDD7A11BFEFF35008C1040 /* ViewController.h */,
-				53CDD7A21BFEFF35008C1040 /* ViewController.m */,
+				538C33561C006F4500806C8B /* BaseViewController.h */,
+				538C33571C006F4500806C8B /* BaseViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -311,6 +327,7 @@
 		53CDD7B51BFF00DE008C1040 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				538C33531C006E4C00806C8B /* MobClick */,
 				53CDD7E21BFF039A008C1040 /* iOSUILib */,
 				53CDD7C51BFF01A5008C1040 /* AFNetworking */,
 				53CDD7C41BFF0146008C1040 /* Hpple */,
@@ -322,6 +339,7 @@
 		53CDD7C31BFF012B008C1040 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				538C33541C006E8E00806C8B /* libz.tbd */,
 				53CDD7C11BFF0108008C1040 /* libxml2.tbd */,
 				53CDD7BF1BFF00F2008C1040 /* libxml2.2.tbd */,
 			);
@@ -614,12 +632,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				537D92F31BFF091D00E2A3B9 /* ListBook.m in Sources */,
+				538C33581C006F4500806C8B /* BaseViewController.m in Sources */,
 				53CDD8591BFF039A008C1040 /* MDTouchGestureRecognizer.m in Sources */,
 				53CDD8501BFF039A008C1040 /* MDRippleLayer.m in Sources */,
 				53CDD7E11BFF01A5008C1040 /* AFURLSessionManager.m in Sources */,
 				53CDD8611BFF039A008C1040 /* MDSuggestPopupView.m in Sources */,
 				53CDD8421BFF039A008C1040 /* MDDatePicker.m in Sources */,
-				53CDD7A31BFEFF35008C1040 /* ViewController.m in Sources */,
 				53CDD8441BFF039A008C1040 /* MDTimePickerDialog.m in Sources */,
 				537D92FA1BFF11ED00E2A3B9 /* SearchBookList.m in Sources */,
 				53CDD8601BFF039A008C1040 /* MDSliderTickMarksView.m in Sources */,
@@ -788,6 +806,10 @@
 				INFOPLIST_FILE = NuistLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NuistLibrary/Classes",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shenjingstudio.stephenw.NuistLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -801,6 +823,10 @@
 				INFOPLIST_FILE = NuistLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NuistLibrary/Classes",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shenjingstudio.stephenw.NuistLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
