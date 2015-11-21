@@ -56,5 +56,7 @@
 }
 
 #pragma mark TODO hasNextPage
-
+- (BOOL)hasNextPage {
+    return self.totalPage > self.currentPage;
+}
 @end
