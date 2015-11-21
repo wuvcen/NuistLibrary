@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		531615B91C007823004C657B /* BookDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 531615B81C007823004C657B /* BookDetail.m */; settings = {ASSET_TAGS = (); }; };
+		531615BD1C007EAF004C657B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 531615BC1C007EAF004C657B /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		537D92F31BFF091D00E2A3B9 /* ListBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 537D92F21BFF091D00E2A3B9 /* ListBook.m */; };
 		537D92F71BFF0F1D00E2A3B9 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 537D92F61BFF0F1D00E2A3B9 /* Server.m */; };
 		537D92FA1BFF11ED00E2A3B9 /* SearchBookList.m in Sources */ = {isa = PBXBuildFile; fileRef = 537D92F91BFF11ED00E2A3B9 /* SearchBookList.m */; };
@@ -93,6 +94,8 @@
 /* Begin PBXFileReference section */
 		531615B71C007823004C657B /* BookDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetail.h; sourceTree = "<group>"; };
 		531615B81C007823004C657B /* BookDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetail.m; sourceTree = "<group>"; };
+		531615BB1C007EAF004C657B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		531615BC1C007EAF004C657B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		537D92F11BFF091D00E2A3B9 /* ListBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListBook.h; sourceTree = "<group>"; };
 		537D92F21BFF091D00E2A3B9 /* ListBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListBook.m; sourceTree = "<group>"; };
 		537D92F51BFF0F1D00E2A3B9 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
@@ -255,6 +258,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		531615BA1C007E5E004C657B /* base */ = {
+			isa = PBXGroup;
+			children = (
+				538C33561C006F4500806C8B /* BaseViewController.h */,
+				538C33571C006F4500806C8B /* BaseViewController.m */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		531615BE1C007EB4004C657B /* home */ = {
+			isa = PBXGroup;
+			children = (
+				531615BB1C007EAF004C657B /* HomeViewController.h */,
+				531615BC1C007EAF004C657B /* HomeViewController.m */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
 		537D92F41BFF092700E2A3B9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,8 +344,8 @@
 		53CDD7B21BFEFF64008C1040 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				538C33561C006F4500806C8B /* BaseViewController.h */,
-				538C33571C006F4500806C8B /* BaseViewController.m */,
+				531615BA1C007E5E004C657B /* base */,
+				531615BE1C007EB4004C657B /* home */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -695,6 +716,7 @@
 				53CDD8581BFF039A008C1040 /* MDToast.m in Sources */,
 				53CDD7E01BFF01A5008C1040 /* AFURLResponseSerialization.m in Sources */,
 				53CDD85F1BFF039A008C1040 /* MDSliderThumbView.m in Sources */,
+				531615BD1C007EAF004C657B /* HomeViewController.m in Sources */,
 				53CDD84B1BFF039A008C1040 /* UIFontHelper.m in Sources */,
 				53CDD7D91BFF01A5008C1040 /* AFHTTPRequestOperation.m in Sources */,
 			);
