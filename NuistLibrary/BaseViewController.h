@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface BaseViewController : UIViewController
-
+/**
+ *  显示 loading hud
+ */
+- (void)showLoding;
+/**
+ *  dismiis loading hud
+ */
+- (void)dismissLoading;
 @end

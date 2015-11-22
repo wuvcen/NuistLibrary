@@ -11,6 +11,7 @@
 #import "BookDetail.h"
 #import "ListBook.h"
 #import "SearchBookList.h"
+#import "LoadingHud.h"
 #define reuseIdentifier @"demo"
 
 @interface HomeViewController ()<UITableViewDataSource>
@@ -24,7 +25,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tableView.dataSource = self;
-    [NXServer getSearchBookListByKeyWord:@"ios" page:@1 completion:^(SearchBookList *list, NSError *error){
+    [self showLoding];
+    [NXServer getSearchBookListByKeyWord:@"编程" page:@1 completion:^(SearchBookList *list, NSError *error){
+        [self dismissLoading];
         if (!error) {
             [self.tableData addObjectsFromArray:list.bookList];
             [self.tableView reloadData];

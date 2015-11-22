@@ -8,8 +8,9 @@
 
 #import "BaseViewController.h"
 #import "MobClick.h"
+#import "LoadingHud.h"
 @interface BaseViewController ()
-
+@property (strong, nonatomic) LoadingHud *hud;
 @end
 
 @implementation BaseViewController
@@ -21,5 +22,17 @@
     [super viewWillDisappear:animated];
     [MobClick endLogPageView:NSStringFromClass([self class])];
 }
+- (void)showLoding {
+    [self.view addSubview:self.hud];
+}
+- (void)dismissLoading {
+    [self.hud removeFromSuperview];
+}
 
+- (LoadingHud *)hud {
+    if (!_hud) {
+        _hud = [LoadingHud new];
+    }
+    return _hud;
+}
 @end
