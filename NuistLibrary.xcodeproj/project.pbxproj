@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		531615B91C007823004C657B /* BookDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 531615B81C007823004C657B /* BookDetail.m */; settings = {ASSET_TAGS = (); }; };
-		531615BD1C007EAF004C657B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 531615BC1C007EAF004C657B /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		531615C11C009FEE004C657B /* UIColor+Material.m in Sources */ = {isa = PBXBuildFile; fileRef = 531615C01C009FEE004C657B /* UIColor+Material.m */; settings = {ASSET_TAGS = (); }; };
-		531615C51C014E47004C657B /* LoadingHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 531615C41C014E47004C657B /* LoadingHud.m */; settings = {ASSET_TAGS = (); }; };
+		531615B91C007823004C657B /* BookDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 531615B81C007823004C657B /* BookDetail.m */; };
+		531615BD1C007EAF004C657B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 531615BC1C007EAF004C657B /* HomeViewController.m */; };
+		531615C11C009FEE004C657B /* UIColor+Material.m in Sources */ = {isa = PBXBuildFile; fileRef = 531615C01C009FEE004C657B /* UIColor+Material.m */; };
+		531615C51C014E47004C657B /* LoadingHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 531615C41C014E47004C657B /* LoadingHud.m */; };
 		537D92F31BFF091D00E2A3B9 /* ListBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 537D92F21BFF091D00E2A3B9 /* ListBook.m */; };
 		537D92F71BFF0F1D00E2A3B9 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 537D92F61BFF0F1D00E2A3B9 /* Server.m */; };
 		537D92FA1BFF11ED00E2A3B9 /* SearchBookList.m in Sources */ = {isa = PBXBuildFile; fileRef = 537D92F91BFF11ED00E2A3B9 /* SearchBookList.m */; };
-		538C33521C006E4600806C8B /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 538C33501C006E4600806C8B /* libMobClickLibrary.a */; settings = {ASSET_TAGS = (); }; };
+		538C33521C006E4600806C8B /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 538C33501C006E4600806C8B /* libMobClickLibrary.a */; };
 		538C33551C006E8E00806C8B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 538C33541C006E8E00806C8B /* libz.tbd */; };
-		538C33581C006F4500806C8B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C33571C006F4500806C8B /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		538C33581C006F4500806C8B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C33571C006F4500806C8B /* BaseViewController.m */; };
 		53CDD79D1BFEFF35008C1040 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD79C1BFEFF35008C1040 /* main.m */; };
 		53CDD7A01BFEFF35008C1040 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD79F1BFEFF35008C1040 /* AppDelegate.m */; };
 		53CDD7A61BFEFF35008C1040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD7A41BFEFF35008C1040 /* Main.storyboard */; };
@@ -91,6 +91,7 @@
 		53CDD87E1BFF03F4008C1040 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD8711BFF03F4008C1040 /* Roboto-Thin.ttf */; };
 		53CDD87F1BFF03F4008C1040 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CDD8721BFF03F4008C1040 /* Roboto-ThinItalic.ttf */; };
 		53CDD8821BFF069C008C1040 /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDD8811BFF069C008C1040 /* NetWork.m */; };
+		9B229FAC1C01657300E66DB0 /* BookInDouban.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B229FAB1C01657300E66DB0 /* BookInDouban.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -247,6 +248,8 @@
 		53CDD8721BFF03F4008C1040 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		53CDD8801BFF069C008C1040 /* NetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWork.h; sourceTree = "<group>"; };
 		53CDD8811BFF069C008C1040 /* NetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWork.m; sourceTree = "<group>"; };
+		9B229FAA1C01657300E66DB0 /* BookInDouban.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookInDouban.h; sourceTree = "<group>"; };
+		9B229FAB1C01657300E66DB0 /* BookInDouban.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookInDouban.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +312,8 @@
 				537D92F21BFF091D00E2A3B9 /* ListBook.m */,
 				537D92F81BFF11ED00E2A3B9 /* SearchBookList.h */,
 				537D92F91BFF11ED00E2A3B9 /* SearchBookList.m */,
+				9B229FAA1C01657300E66DB0 /* BookInDouban.h */,
+				9B229FAB1C01657300E66DB0 /* BookInDouban.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -683,6 +688,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B229FAC1C01657300E66DB0 /* BookInDouban.m in Sources */,
 				537D92F31BFF091D00E2A3B9 /* ListBook.m in Sources */,
 				538C33581C006F4500806C8B /* BaseViewController.m in Sources */,
 				53CDD8591BFF039A008C1040 /* MDTouchGestureRecognizer.m in Sources */,

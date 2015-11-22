@@ -12,6 +12,7 @@
 @class SearchBookList;
 @class ListBook;
 @class BookDetail;
+@class BookInDouban;
 
 @interface Server : NSObject
 
@@ -35,4 +36,12 @@
  *  @param block    返回 BookDetail
  */
 - (void)getLibBookDetailByListBook:(ListBook *)listBook completion:(void (^)(BookDetail *,NSError *))block;
+
+/**
+ *  通过ISBN在豆瓣上查询书籍
+ *
+ *  @param isbn  isbn
+ *  @param block 返回 BookInDouban
+ */
+- (void)getBookInDoubanByISBN:(NSString *)isbn completion:(void (^)(BookInDouban *, NSError *))block;
 @end

@@ -12,6 +12,7 @@
 #import "ListBook.h"
 #import "SearchBookList.h"
 #import "LoadingHud.h"
+#import "BookInDouban.h"
 #define reuseIdentifier @"demo"
 
 @interface HomeViewController ()<UITableViewDataSource>
@@ -31,6 +32,11 @@
         if (!error) {
             [self.tableData addObjectsFromArray:list.bookList];
             [self.tableView reloadData];
+        }
+    }];
+    [NXServer getBookInDoubanByISBN:@"978-7-115-38776-9" completion:^(BookInDouban *bookInDouban, NSError *error) {
+        if (!error) {
+            NSLog(@"%@", bookInDouban.link);
         }
     }];
 }

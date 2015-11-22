@@ -12,6 +12,7 @@
 #import "ListBook.h"
 #import "BookDetail.h"
 #import "SearchBookList.h"
+#import "BookInDouban.h"
 
 @implementation Server
 
@@ -64,6 +65,22 @@
                     block(nil, error);
                 });
             }
+        }
+    }];
+}
+
+- (void)getBookInDoubanByISBN:(NSString *)isbn completion:(void (^)(BookInDouban *, NSError *))block {
+    NSString *url = [libBookDoubanInfo stringByReplacingOccurrencesOfString:@"{isbn}" withString:isbn];
+    // TODO: 网络请求要放在 Network 里面
+    [NetWork dataFromURL:url completionBlock:^(NSData *data, NSError *error) {
+        if (!error) {
+            NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+            [BookInDouban bookInDoubanWithDict:dict completionBlock:^(BookInDouban *bookInDouban) {
+                //        NSLog(@"%@", bookInDouban.image);
+                if (block) {
+                    block(bookInDouban, nil);
+                }
+            }];
         }
     }];
 }
